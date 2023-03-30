@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Style my Tana",
+  "version": "1.0",
+  "description": "A Chrome extension to edit styles on app.tana.inc",
+  "icons": {
+    "48": "icon48.png"
+  },
+  "action": {
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://app.tana.inc/*"],
+      "css": ["contentStyle.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}

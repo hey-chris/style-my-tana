@@ -1,0 +1,23 @@
+/* Bullet - opacity */
+.bullet {
+    opacity: 0.5;
+}
+
+/* Bullet - spacing */
+.bulletAndContent {
+    padding-top: 8px;
+}
+
+
+/* Bullet - lines opacity */
+.bulletSide.bulletSideExpanded::after {
+    opacity: 0;
+}
+
+/* Teplate tag – opacity */
+.templateNameList {
+    opacity: 0.5;
+    margin-left: 15px;
+}
+
+/* Teplate tag – left-margin in the popup only */

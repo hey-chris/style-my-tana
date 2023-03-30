@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+  
+div {
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  margin-top: 12px;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+button:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+button:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+button:hover {
+  border-color: #b5b5b5;
+}
+
+button:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}

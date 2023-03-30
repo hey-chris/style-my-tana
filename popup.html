@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Style my Tana</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Style my Tana</h1>
+    <p>Adjust the below settings to change the styling of elements in the Tana app. The default values create a muted Tana experience.</p>
+    <h3>Bullet styles</h3>
+    <div>
+      <label for="bullet-opacity">Bullet opacity:</label>
+      <input type="range" id="bullet-opacity" min="0" max="1" step="0.1" value="0.5" />
+    </div>
+    <div>
+      <label for="bullet-line-height">Bullet line height:</label>
+      <input type="range" id="bullet-line-height" min="0" max="30" step="1" value="8" />
+    </div>
+    <div>
+      <label for="bullet-side-opacity">Bullet expanded opacity:</label>
+      <input type="range" id="bullet-side-opacity" min="0" max="1" step="0.1" value="0" />
+    </div>
+    <h3>Template tag styles</h3>
+    <div>
+      <label for="template-name-opacity">Template tag opacity:</label>
+      <input type="range" id="template-name-opacity" min="0" max="1" step="0.01" value="0.5" />
+    </div>
+    <div>
+      <label for="template-name-margin">Template tag:</label>
+      <input type="range" id="template-name-margin" min="10" max= "50" step="5" value="15" />
+    </div>
+    <button id="apply-styles">Apply Styles</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
